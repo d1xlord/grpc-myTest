@@ -1,8 +1,9 @@
 ## gRPC Testing
 *Used gRPC with Java and Python*
-
 A Server and Client code for both languages
+
 ---
+
 >**To Compile the** *.proto* **file**
 
   * **For Python**
