@@ -1,0 +1,7 @@
+.gradle
+.idea
+build
+*_pb2.py*
+out
+protos
+settings.gradle
