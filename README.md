@@ -7,6 +7,14 @@ Server and Client code for both languages are included
 
 >**To Compile the** *.proto* **file**
 
+  * You need `protoc` compiler as gRPC uses it to compile the *.proto*  
+  * You will also need to install gRPC plugins for languages to compile the *.proto* into language specific stub code
+  
+  For **Python** and some other c-based language the plugin can be installed following [this](https://github.com/grpc/grpc/blob/master/INSTALL.md)  
+  For **Java**, you need to compile through gradle. You can follow [this](https://github.com/grpc/grpc-java/blob/master/README.md)
+
+---
+
   * **For Python**
 	* Use the gen.sh to compile the helloworld.proto
 
